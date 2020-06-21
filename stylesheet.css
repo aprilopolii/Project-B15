@@ -33,17 +33,15 @@ a {
 }
 
 .top-wrapper h1 {
-  opacity: 0.9;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 30px;
-  font-weight: bolder;
+  text-shadow: 2px 2px 5px black;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
   margin-bottom: 2px;
-  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
 }
 
 .btn-wrapper {
@@ -53,19 +51,6 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -81,8 +66,58 @@ a {
   opacity: 1;
 }
 
-.fa {
-  margin-right: 5px;
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: tomato;
+  font-weight: bold;
+}
+
+li.dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: all 1s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: all 0.5s;
 }
 
 header {
@@ -114,7 +149,6 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
 }
 
 .header-right a {
@@ -122,7 +156,6 @@ header {
   padding: 0 25px;
   color: black;
   display: block;
-  float: left;
   transition: all 0.5s;
 }
 
@@ -138,18 +171,15 @@ header {
   display: none;
 }
 
-
 .lesson-wrapper {
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
 }
 
 .heading {
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   color: #5f5d60;
 }
 
@@ -166,17 +196,31 @@ header {
   position: relative;
 }
 
+.lesson-icon img {
+  border-radius: 50%;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.lesson-icon img:hover {
+  box-shadow: 0 0 2px 1px rgb(249, 253, 4, 0.9);
+}
+
 .lesson-icon p {
   position: absolute;
-  top: 38%;
   width: 100%;
-  color: white;
+  top: 250px;
+  margin-left: 8px;
+  font-weight: bolder;
+  color: black;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
+  margin-left: 20px;
   font-size: 15px;
   color: #b3aeb5;
 }
@@ -204,13 +248,44 @@ header {
   box-shadow: none;
 }
 
+.contair {
+  position: relative;
+}
+
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 5px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+  background-color: blueviolet;
+}
+
 footer img {
   width: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
 }
 
 footer {
