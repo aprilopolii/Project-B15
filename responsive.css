@@ -1,8 +1,13 @@
 /* tablet */
 @media (max-width: 1000px) {
-  .lesson {
-    width: 50%;
+  .top {
+    width: 100%;
     margin-bottom: 50px;
+  }
+  
+  .center {
+    width: 50%;
+    margin-bottom: 25px;
   }
 
   .top-wrapper h1 {
