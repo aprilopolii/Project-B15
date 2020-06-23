@@ -217,8 +217,9 @@ header {
   color: black;
 }
 
-.text-contents {
+.text-content {
   width: 80%;
+  position: relative;
   display: inline-block;
   margin-top: 15px;
   margin-left: 20px;
