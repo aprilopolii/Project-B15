@@ -63,6 +63,9 @@
   .header-logo {
     font-size: 18px;
   }
+   .menu-icon {
+    display: block;
+  }
 
   .header-right a {
     position: relative;
@@ -94,4 +97,11 @@
     left: 40px;
     top: -10px;
   }
+  
+  .header-right {
+    display: none;
+  }
+
+  
+  
 }
