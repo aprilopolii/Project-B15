@@ -172,16 +172,23 @@ header {
   
 }
 
+/* bg-color */
 .lesson-wrapper {
   padding-bottom: 80px;
-  background-color: #f7f7f7;
+  background-color: #34495e;
   text-align: center;
 }
 
+/* Color */
 .heading {
   padding-top: 80px;
   padding-bottom: 20px;
-  color: #5f5d60;
+  color: #dfe4ea;
+}
+
+/* penambahan class */
+.new {
+  color: #34495e;
 }
 
 .heading h2 {
