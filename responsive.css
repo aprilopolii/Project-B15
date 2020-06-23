@@ -1,5 +1,10 @@
+
 /* tablet */
 @media (max-width: 1000px) {
+  .menu-icon{
+  display:none;  
+  }
+  
   .lesson {
     width: 50%;
     margin-bottom: 50px;
